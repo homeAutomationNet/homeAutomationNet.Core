@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="../../global.props" />
+	<ItemGroup>
+		<PackageReference Include="DotNetProjects.DotNetSiemensPLCToolBoxLibrary" Version="4.0.436" />
+		<PackageReference Include="DryIoc.dll" Version="5.4.1" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="../../homeAutomationNet.Adapters.Types/homeAutomationNet.Adapters.Types.csproj" />
+	</ItemGroup>
+</Project>

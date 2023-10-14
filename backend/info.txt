@@ -1,0 +1,9 @@
+Softwareparts:
+
+MainService wich is run by WindowsService or ConsoleProgramm
+WindowsService
+ConsoleProgram
+
+Console programm Should have command s like iobroker to add/remove addons etc
+
+Webservice should run without any databse, databse is not mandatory, so first run does not need a user

@@ -1,0 +1,5 @@
+{
+  "Name": "Sample System",
+  "ConnectionString": "Data Source=..\\data\\homeautomation.sqlite;Flags=BindUInt32AsInt64,BindInvariantDecimal;DateTimeKind=Utc;",
+  "DatabaseType": "Sqlite"
+}

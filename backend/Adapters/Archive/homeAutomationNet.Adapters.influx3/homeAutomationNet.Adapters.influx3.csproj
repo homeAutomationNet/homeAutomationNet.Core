@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="../../../global.props" />
+	<ItemGroup>
+		<PackageReference Include="DryIoc.dll" Version="5.4.1" />
+	</ItemGroup>
+</Project>
