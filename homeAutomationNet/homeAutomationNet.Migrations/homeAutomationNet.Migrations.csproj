@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\global.props" />
+	<ItemGroup>
+		<PackageReference Include="DotNetProjects.Migrator" Version="7.0.146" />
+	</ItemGroup>
+</Project>

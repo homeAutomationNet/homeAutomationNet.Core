@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.32912.340
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homeAutomationNet", "homeAutomationNet\homeAutomationNet.csproj", "{2727949A-9558-444F-96C4-524E203D0F38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homeAutomationNet.Tests", "homeAutomationNet.Tests\homeAutomationNet.Tests.csproj", "{689FD7BC-D034-4303-9C42-00BEF21AB926}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homeAutomationNet.Core", "homeAutomationNet.Core\homeAutomationNet.Core.csproj", "{8A4E574F-70D7-4E6A-B743-FFCB0E6ADB93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homeAutomationNet.Core.Types", "homeAutomationNet.Core.Types\homeAutomationNet.Core.Types.csproj", "{A45C4F2D-0A1A-4AC1-AF5D-1C8C872BA6F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homeAutomationNet.Adapters", "homeAutomationNet.Adapters\homeAutomationNet.Adapters.csproj", "{2158A510-74F3-47BA-BF9B-D442AA740E25}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homeAutomationNet.Adapters.Types", "homeAutomationNet.Adapters.Types\homeAutomationNet.Adapters.Types.csproj", "{8BC10CB7-B3D8-4817-AB37-73F79F471EDD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homeAutomationNet.Adapters.SimaticS7300_400", "Adapters\homeAutomationNet.Adapters.SimaticS7300_400\homeAutomationNet.Adapters.SimaticS7300_400.csproj", "{3BB40BAB-5BF4-4FC9-A93E-31A1AB2D3569}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homeAutomationNet.Migrations", "homeAutomationNet.Migrations\homeAutomationNet.Migrations.csproj", "{00BBE83E-0772-4362-9B7E-ADF541311A83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapters", "Adapters", "{9F2BC4E0-8C7B-4684-84A1-5515E750E78D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homeAutomationNet.Adapters.ioBroker", "Adapters\homeAutomationNet.Adapters.ioBroker\homeAutomationNet.Adapters.ioBroker.csproj", "{A8958BDF-C655-4CF2-9245-9A0322B9D606}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FE652048-D329-437A-A644-50F69BC7A68D}"
+	ProjectSection(SolutionItems) = preProject
+		global.props = global.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2727949A-9558-444F-96C4-524E203D0F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2727949A-9558-444F-96C4-524E203D0F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2727949A-9558-444F-96C4-524E203D0F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2727949A-9558-444F-96C4-524E203D0F38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{689FD7BC-D034-4303-9C42-00BEF21AB926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{689FD7BC-D034-4303-9C42-00BEF21AB926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{689FD7BC-D034-4303-9C42-00BEF21AB926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{689FD7BC-D034-4303-9C42-00BEF21AB926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A4E574F-70D7-4E6A-B743-FFCB0E6ADB93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A4E574F-70D7-4E6A-B743-FFCB0E6ADB93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A4E574F-70D7-4E6A-B743-FFCB0E6ADB93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A4E574F-70D7-4E6A-B743-FFCB0E6ADB93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A45C4F2D-0A1A-4AC1-AF5D-1C8C872BA6F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A45C4F2D-0A1A-4AC1-AF5D-1C8C872BA6F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A45C4F2D-0A1A-4AC1-AF5D-1C8C872BA6F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A45C4F2D-0A1A-4AC1-AF5D-1C8C872BA6F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2158A510-74F3-47BA-BF9B-D442AA740E25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2158A510-74F3-47BA-BF9B-D442AA740E25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2158A510-74F3-47BA-BF9B-D442AA740E25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2158A510-74F3-47BA-BF9B-D442AA740E25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BC10CB7-B3D8-4817-AB37-73F79F471EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC10CB7-B3D8-4817-AB37-73F79F471EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC10CB7-B3D8-4817-AB37-73F79F471EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC10CB7-B3D8-4817-AB37-73F79F471EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB40BAB-5BF4-4FC9-A93E-31A1AB2D3569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB40BAB-5BF4-4FC9-A93E-31A1AB2D3569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB40BAB-5BF4-4FC9-A93E-31A1AB2D3569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB40BAB-5BF4-4FC9-A93E-31A1AB2D3569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00BBE83E-0772-4362-9B7E-ADF541311A83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00BBE83E-0772-4362-9B7E-ADF541311A83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00BBE83E-0772-4362-9B7E-ADF541311A83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00BBE83E-0772-4362-9B7E-ADF541311A83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8958BDF-C655-4CF2-9245-9A0322B9D606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8958BDF-C655-4CF2-9245-9A0322B9D606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8958BDF-C655-4CF2-9245-9A0322B9D606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8958BDF-C655-4CF2-9245-9A0322B9D606}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3BB40BAB-5BF4-4FC9-A93E-31A1AB2D3569} = {9F2BC4E0-8C7B-4684-84A1-5515E750E78D}
+		{A8958BDF-C655-4CF2-9245-9A0322B9D606} = {9F2BC4E0-8C7B-4684-84A1-5515E750E78D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FF493BF-EB22-49B2-BFA9-578E8B8FCE8E}
+	EndGlobalSection
+EndGlobal
